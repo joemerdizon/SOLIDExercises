@@ -10,7 +10,7 @@ namespace DIP
     {
         public void Log(string errorMessage)
         {
-            
+
         }
     }
 }
