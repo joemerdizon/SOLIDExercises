@@ -6,8 +6,21 @@ using System.Threading.Tasks;
 
 namespace OCP
 {
-    public class Guitar
+    public class Guitar : CoolGuitar
     {
+        public override string Color
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
         public string Make { get; set; }
         public string Model { get; set; }
         public int Volume { get; set; }
