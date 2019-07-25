@@ -8,25 +8,14 @@ namespace SRP
 {
     public class Book
     {
-        private string _name;
-        private string _author;
-        private string _text;
+        public static void Main()
+        {          
+            ConvertIntoBookText BookConvert = new ConvertIntoBookText();
+            BookComposition book = new BookComposition();
+            BookConvert.replaceWordInText(book._text);
 
-        public Book()
-        {
-            this._name = "Fiction";
-            this._author = "George R.R. Martin";
-            this._text = "Lannister always pays his debts!!";
-        }
-
-        public String replaceWordInText(String word)
-        {
-            return _text.Replace(word, _text);
-        }
-
-        public bool isWordInText(String word)
-        {
-            return _text.Contains(word);
+            CheckWordintheBook isexisting = new CheckWordintheBook();
+            Console.WriteLine("Is your looking word is in the book? : " + isexisting.isWordInText(book._text));
         }
     }
 }

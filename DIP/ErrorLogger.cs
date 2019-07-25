@@ -8,6 +8,10 @@ namespace DIP
 {
     class ErrorLogger
     {
+        public void Add(string postMessage)
+        {
+        }
+
         public void Log(string errorMessage)
         {
             

@@ -18,5 +18,17 @@ namespace LSP
         {
             engine.On();
         }
+
+
+        private NoEngine noEngine = new NoEngine();
+        public void NoEngineaccelerate()
+        {
+            noEngine.Accelerate(800);
+        }
+
+        public void turnOffEngine()
+        {
+            noEngine.Off();
+        }
     }
 }

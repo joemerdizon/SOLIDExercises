@@ -17,4 +17,16 @@ namespace LSP
 
         }
     }
+
+    public class NoEngine
+    {
+        public void Off()
+        {
+
+        }
+        public void Accelerate(int speed)
+        {
+
+        }
+    }
 }

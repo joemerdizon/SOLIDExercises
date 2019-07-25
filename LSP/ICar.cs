@@ -9,6 +9,11 @@ namespace LSP
     public interface ICar
     {
         void turnOnEngine();
+
+        void turnOffEngine();
+
         void accelerate();
+
+        void NoEngineaccelerate();
     }
 }

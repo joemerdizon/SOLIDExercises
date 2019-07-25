@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book.cs" />
+    <Compile Include="BookComposition.cs" />
+    <Compile Include="CheckWordintheBook.cs" />
+    <Compile Include="ConvertIntoBookText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

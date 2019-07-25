@@ -8,12 +8,12 @@ namespace DIP
 {
     public class Post
     {
-        ErrorLogger errorLogger = new ErrorLogger();
-        private void CreatePost(Database db, string postMessage)
-        {
+        
+        private void Create() {
+            ErrorLogger errorLogger = new ErrorLogger();
             try
             {
-                db.Add(postMessage);
+                errorLogger.Add("New save transactions!!!");
             }
             catch (Exception ex)
             {
