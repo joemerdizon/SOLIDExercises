@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace DIP
 {
-    class ErrorLogger
+    class ErrorLogger : IErrorLogger
     {
         public void Log(string errorMessage)
         {
             
+        }
+
+        public void NewError(string errorMessage)
+        {
+
         }
     }
 }
