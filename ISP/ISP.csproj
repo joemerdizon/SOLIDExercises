@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IAthlete.cs" />
+    <Compile Include="ISwim.cs" />
+    <Compile Include="ICompete.cs" />
+    <Compile Include="JohnDoe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
