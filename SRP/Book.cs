@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SRP
 {
-    public class Book
+    public class Book:IBook
     {
         private string _name;
         private string _author;

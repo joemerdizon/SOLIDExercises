@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DIP
+namespace OCP
 {
-    public class ErrorLogger
+    public class CoolGuitar : Guitar
     {
-        public void Log(string errorMessage)
-        {
-        }
+        public string Color { get; set; }
     }
 }

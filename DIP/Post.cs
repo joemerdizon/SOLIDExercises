@@ -8,8 +8,9 @@ namespace DIP
 {
     public class Post
     {
-        ErrorLogger errorLogger = new ErrorLogger();
-        private void CreatePost(Database db, string postMessage)
+        ErrorLogger errorLogger;
+
+        public Post(Database db, string postMessage)
         {
             try
             {
