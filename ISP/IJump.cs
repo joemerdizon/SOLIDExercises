@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ISP
 {
-    public interface IAthlete
+    public interface IJump
     {
-        void compete();
-        void swim();
+        void highJump();
+        void longJump();
     }
 }
