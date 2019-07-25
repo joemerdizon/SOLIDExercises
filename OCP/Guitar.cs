@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace OCP
 {
-    public class Guitar
+    public class Guitar : CoolGuitar
     {
         public string Make { get; set; }
         public string Model { get; set; }
         public int Volume { get; set; }
+        public override string FlameColor { get; set; }
     }
 }

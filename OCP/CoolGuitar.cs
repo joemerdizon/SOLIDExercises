@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP
+namespace OCP
 {
-    public interface IAthlete
+   public abstract class CoolGuitar
     {
-        void compete();
-        void swim();
-    
+        public abstract string FlameColor { get; set; }
     }
 }
