@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DIP
+namespace SRP
 {
-    public class ErrorLogger
+    public interface IBook
     {
-        public void Log(string errorMessage)
-        {
-        }
+        String replaceWordInText(String word);
+        bool isWordInText(String word);
     }
 }
