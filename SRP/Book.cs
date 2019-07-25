@@ -10,7 +10,7 @@ namespace SRP
     {
         private string _name;
         private string _author;
-        private string _text;
+        public string _text;
 
         public Book()
         {
@@ -19,14 +19,12 @@ namespace SRP
             this._text = "Lannister always pays his debts!!";
         }
 
-        public String replaceWordInText(String word)
-        {
-            return _text.Replace(word, _text);
-        }
 
         public bool isWordInText(String word)
         {
             return _text.Contains(word);
         }
+
+   
     }
 }

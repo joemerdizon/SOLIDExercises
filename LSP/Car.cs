@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP
+namespace LSP
 {
-    public interface IAthlete
+   public abstract class Car
     {
-        void compete();
-        void swim();
-    
+
     }
 }

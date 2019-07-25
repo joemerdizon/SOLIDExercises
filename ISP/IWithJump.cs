@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ISP
 {
-    public interface IAthlete
+    interface IWithJump : IAthlete
     {
-        void compete();
-        void swim();
-    
+        void highJump();
+        void longJump();
+
     }
 }
