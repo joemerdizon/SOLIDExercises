@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace LSP
 {
-    public interface ICar
+    public class NoEngine : Engine
     {
-        void TurnOnEngine();
-        void Accelerate();
+        public static void Power(int speed)
+        {
+
+        }
     }
 }

@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LSP
+namespace ISP
 {
-    public interface ICar
+    public interface ICompetition : IAthlete, IJump
     {
-        void TurnOnEngine();
-        void Accelerate();
     }
 }

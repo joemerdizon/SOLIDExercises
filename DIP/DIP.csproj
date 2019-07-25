@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Database.cs" />
     <Compile Include="ErrorLogger.cs" />
+    <Compile Include="IErrorLogger.cs" />
+    <Compile Include="INewErrorLogger.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LSP
+namespace OCP
 {
-    public interface ICar
+    public class CoolGuitar
     {
-        void TurnOnEngine();
-        void Accelerate();
+        public string FlameColor { get; set; }
     }
 }

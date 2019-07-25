@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LSP
+namespace DIP
 {
-    public interface ICar
+    public interface INewErrorLogger
     {
-        void TurnOnEngine();
-        void Accelerate();
+        void NewLog(string errorMessage);
     }
 }

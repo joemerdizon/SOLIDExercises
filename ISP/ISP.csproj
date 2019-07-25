@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Competition.cs" />
     <Compile Include="IAthlete.cs" />
+    <Compile Include="ICompetition.cs" />
+    <Compile Include="IJump.cs" />
+    <Compile Include="JohnDoe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

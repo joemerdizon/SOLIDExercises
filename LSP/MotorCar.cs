@@ -8,13 +8,13 @@ namespace LSP
 {
     public class MotorCar : ICar
     {
-        private Engine engine = new Engine();
-        public void accelerate()
+        private Engine engine = new NoEngine();
+        public void Accelerate()
         {
             engine.Accelerate(1000);
         }
 
-        public void turnOnEngine()
+        public void TurnOnEngine()
         {
             engine.On();
         }
