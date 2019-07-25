@@ -4,18 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LSP
+namespace SRP
 {
-    public class Engine
+    class WordInText
     {
-        public void On()
+        public String ReturnWordInText(String word, string text)
         {
-
+            return text.Replace(word, text);
         }
-        public void Accelerate(int speed)
-        {
-
-        }
-        
     }
 }

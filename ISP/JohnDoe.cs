@@ -4,18 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DIP
+namespace ISP
 {
-    class ErrorLogger : IErrorLogger
+    class JohnDoe : IAthlete
     {
-        public void Log(string errorMessage)
-        {
-            
-        }
-
-        public void NewErrorlogger()
+        public void compete()
         {
             throw new NotImplementedException();
         }
+
+        public void swim()
+        {
+            throw new NotImplementedException();
+        }
+        
     }
 }

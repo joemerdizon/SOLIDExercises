@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ElectricCar.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="ICar.cs" />
+    <Compile Include="Main.cs" />
     <Compile Include="MotorCar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

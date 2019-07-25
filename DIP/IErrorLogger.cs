@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP
+namespace DIP
 {
-    public interface IAthlete
+    interface IErrorLogger
     {
-        void compete();
-        void swim();
-
+        void NewErrorlogger();
+        void Log(string errorMessage);
     }
 }

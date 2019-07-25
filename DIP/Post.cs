@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DIP
 {
-    public class Post
+    public class Post 
     {
-        ErrorLogger errorLogger = new ErrorLogger();
+        IErrorLogger _errorLogger = new ErrorLogger();
         private void CreatePost(Database db, string postMessage)
         {
             try
@@ -17,9 +17,10 @@ namespace DIP
             }
             catch (Exception ex)
             {
-
-                errorLogger.Log(ex.Message);
+                _errorLogger.NewErrorlogger();
+                _errorLogger.Log(ex.Message);
             }
         }
+        
     }
 }
