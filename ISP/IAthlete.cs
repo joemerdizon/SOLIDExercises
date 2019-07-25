@@ -8,10 +8,7 @@ namespace ISP
 {
     public interface IAthlete
     {
-        void compete();
-        void swim();
-        void highJump();
-        void longJump();
-
+        void Compete();
+        void Swim();
     }
 }

@@ -12,6 +12,7 @@ namespace LSP
         {
 
         }
+
         public void Accelerate(int speed)
         {
 

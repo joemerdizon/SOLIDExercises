@@ -19,12 +19,12 @@ namespace SRP
             this._text = "Lannister always pays his debts!!";
         }
 
-        public String replaceWordInText(String word)
+        public string ReplaceWordInText(String word)
         {
             return _text.Replace(word, _text);
         }
 
-        public bool isWordInText(String word)
+        public bool IsWordInText(String word)
         {
             return _text.Contains(word);
         }

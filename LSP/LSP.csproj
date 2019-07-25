@@ -44,6 +44,7 @@
     <Compile Include="Engine.cs" />
     <Compile Include="ICar.cs" />
     <Compile Include="MotorCar.cs" />
+    <Compile Include="NoEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
