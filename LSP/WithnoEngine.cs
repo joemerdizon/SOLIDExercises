@@ -6,21 +6,14 @@ using System.Threading.Tasks;
 
 namespace LSP
 {
-    public class MotorCar : ICar
+    class WithnoEngine : ICar
     {
-        private Engine engine = new Engine();
-
-        public void Accelerate()
-        {
-            engine.Accelerate(1000);
-        }
-
         public void TurnOnEngine()
         {
-            engine.On();
+
         }
 
-        public void WithNoEngine()
+        public void Accelerate()
         {
             
         }

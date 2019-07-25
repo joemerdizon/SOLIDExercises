@@ -8,7 +8,13 @@ namespace DIP
 {
     public class Post
     {
-        ErrorLogger errorLogger = new ErrorLogger();
+        private NewErrorLogger _newErrorLogger;
+
+        public Post(NewErrorLogger newErrorLogger)
+        {
+            _newErrorLogger = newErrorLogger;
+        }
+        
         private void CreatePost(Database db, string postMessage)
         {
             try
@@ -18,7 +24,7 @@ namespace DIP
             catch (Exception ex)
             {
 
-                errorLogger.Log(ex.Message);
+                _newErrorLogger.Log(ex.ToString());
             }
         }
     }
