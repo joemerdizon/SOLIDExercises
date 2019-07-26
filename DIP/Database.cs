@@ -8,8 +8,6 @@ namespace DIP
 {
     public class Database
     {
-        public void Add(string postMessage)
-        {
-        }
+       
     }
 }

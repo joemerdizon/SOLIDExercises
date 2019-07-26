@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ISP
+namespace OCP
 {
-    public interface IAthlete
+    public class NewGuitar : Guitar
     {
-        void compete();
-        void swim();
+        public string Control { get; set; }
     }
 }
